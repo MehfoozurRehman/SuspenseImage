@@ -1,0 +1,45 @@
+{
+  "name": "suspense-image",
+  "description": "Suspense Image is a React component that allows you to lazy load images with suspense.",
+  "author": "Mehfooz-ur-Rehman",
+  "keywords": [
+    "react",
+    "suspense",
+    "suspense-image",
+    "suspense-image-react",
+    "suspense-image-react-component",
+    "suspense-image-react-hook",
+    "suspense-image-react-hook-component"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehfoozurRehman/SuspenseImage.git"
+  },
+  "main": "./dist/suspense-image.umd.js",
+  "module": "./dist/suspense-image.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/suspense-image.es.js",
+      "require": "./dist/suspense-image.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
